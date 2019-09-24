@@ -66,11 +66,19 @@ img{
   clear:both;
 }
 
-/* per eliminare tutti gli elementi in float quando sono sotto i 420px */
+/* per eliminare elementi in float e riadattarli se sotto i 420 */
 @media screen and (max-width: 420px) {
+
   #lezioni .row > .left, #lezioni .row > .right {
-  float: none;
-  width: 100%;
+    float: none;
+    width: 100%;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    float: none;
+    width: 100%;
   }
 
 }
