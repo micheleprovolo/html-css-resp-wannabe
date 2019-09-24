@@ -72,6 +72,7 @@ img{
   #lezioni .row > .left, #lezioni .row > .right {
     float: none;
     width: 100%;
+    margin-bottom: 5%;
   }
 
   #steps .row > .left,
@@ -79,6 +80,7 @@ img{
   #steps .row > .right {
     float: none;
     width: 100%;
+    margin-bottom: 5%;
   }
 
 }
