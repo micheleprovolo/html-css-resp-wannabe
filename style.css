@@ -66,23 +66,24 @@ img{
   clear:both;
 }
 
-/* per eliminare elementi in float e riadattarli se sotto i 420 */
+/* per eliminare float e riadattar elementi se sotto i 420 */
 @media screen and (max-width: 420px) {
 
-  #lezioni .row > .left,
-  #lezioni .row > .right,
-  #steps .row > .left,
-  #steps .row > .central,
-  #steps .row > .right {
-    float: none;
-    width: 100%;
-    margin-bottom: 5%;
-  }
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
 
-   /* {
-    float: none;
-    width: 100%;
-    margin-bottom: 5%;
-  } */
+#lezioni .row > .left,
+#lezioni .row > .right,
+#steps .row > .left,
+#steps .row > .central,
+#steps .row > .right {
+
+  float: none;
+  width: 80%;
+  margin-bottom: 5%;
+
+}
 
 }
